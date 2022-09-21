@@ -5,8 +5,7 @@ import {ListOfCharactersComponent} from "./components/list-of-characters/list-of
 import {ListOfPlanetsComponent} from "./components/list-of-planets/list-of-planets.component";
 
 const routes: Routes = [
-  {path: '', redirectTo: 'characters', pathMatch: 'prefix'},
-  {path: '**', component: ListOfCharactersComponent, pathMatch: 'full'},
+  {path: '', redirectTo: 'characters', pathMatch: 'full'},
   {path: 'characters', component: ListOfCharactersComponent},
   {path: 'planets', component: ListOfPlanetsComponent},
   {path: 'detail/:id', component: DetailCharacterComponent},
