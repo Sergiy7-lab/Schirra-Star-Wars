@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  background: #5d5d5c;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+  padding-left: 10px;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-list a {
+  padding-left: 30px;
+  color: #8a7b07;
+}
+
+.active {
+  color: #e7c801 !important;
+}

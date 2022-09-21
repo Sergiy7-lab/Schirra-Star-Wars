@@ -1,0 +1,41 @@
+<div *ngIf="character">
+  <button type="button" class="btn" (click)="goBack()">go back</button>
+  <div class="description">
+    <h2 class="name">{{character.name }}</h2>
+
+    <div class="height">
+      <span>Height:</span>
+      {{character.height}}
+    </div>
+
+    <div class="mass">
+      <span>Mass:</span>
+      {{character.mass}}
+    </div>
+
+    <div class="hair_color">
+      <span>Hair color:</span>
+      {{character.hair_color}}
+    </div>
+
+    <div class="skin_color">
+      <span>Skin color:</span>
+      {{character.skin_color}}
+    </div>
+
+    <div class="eye_color">
+      <span>Eye color:</span>
+      {{character.eye_color}}
+    </div>
+
+    <div class="birth_year">
+      <span>Birth year:</span>
+      {{character.birth_year}}
+    </div>
+
+    <div class="gender">
+      <span>Gender:</span>
+      {{character.gender}}
+    </div>
+  </div>
+</div>

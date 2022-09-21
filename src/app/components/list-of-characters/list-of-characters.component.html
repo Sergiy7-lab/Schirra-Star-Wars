@@ -1,0 +1,22 @@
+<div
+  infinite-scroll
+  [infiniteScrollDistance]="1"
+  [infiniteScrollThrottle]="1000"
+  (scrolled)="onScroll()"
+>
+  <div class="warp">
+    <div class="title">Characters:</div>
+
+    <div class="characters" *ngFor="let character of characters">
+      <span class="name">{{character.name}}</span>
+      <button class="btn" (click)="getDetail(character.url)"><span>details</span></button>
+      <hr class="solid">
+    </div>
+    <div class="loading" *ngIf="loading">
+      loading ...
+    </div>
+    <div class="no-information" *ngIf="page === 10">
+      No more information
+    </div>
+  </div>
+</div>

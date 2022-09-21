@@ -1,0 +1,22 @@
+.btn {
+  margin: 20px;
+  box-sizing: border-box;
+  width: 70px;
+  border: 1px solid #F18230;
+  border-radius: 25px;
+  font-size: 14px;
+  color: #ffd0b0;
+  background: linear-gradient(180deg, rgba(232, 219, 219, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #bb5e18;
+  text-align: center;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #fc6800
+}
+
+.description {
+  color: #ffd0b0;
+  margin: 0px 20px;
+  line-height: 2;
+}
